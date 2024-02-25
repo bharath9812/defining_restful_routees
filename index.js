@@ -114,15 +114,7 @@ app.delete('/comments/:id', (req, res) => {
 })
 
 
-// app.get('/tacos', (req, res) => {
-//     res.send('get response');
-// })
 
-// app.post('/tacos', (req, res) => {
-//     const { top, qty } = req.body;
-//     res.send(`ok,here is post response with topping  ${top} qty: ${qty}`);
-    
-// })
 
 app.listen(3000, () => {
     console.log('on port 3000');
